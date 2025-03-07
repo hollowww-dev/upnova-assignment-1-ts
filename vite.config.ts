@@ -1,5 +1,8 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-	base: '/upnova-assignment-1-ts/',
+	base: './', // Użyj './' dla poprawnych ścieżek względnych
+	build: {
+		outDir: 'dist',
+	},
 })
