@@ -1,0 +1,20 @@
+.headline {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.headline h1 {
+	font-size: 3.1rem;
+}
+
+.headline .headlineMuted {
+	font-size: 1.5rem;
+	color: var(--muted);
+}
+
+#products {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
