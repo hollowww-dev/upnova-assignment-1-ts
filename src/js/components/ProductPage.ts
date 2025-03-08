@@ -46,7 +46,7 @@ class ProductPage extends HTMLElement {
 					    <span class="priceNumber" ${typeof document.startViewTransition === 'function' ? `style="view-transition-name: product-price-${productData.id}"` : ''}>$${
 			productData.price
 		}</span>
-                        <span className="priceInfo">* This is a fictional price</span>
+                        <span class="priceInfo">* This is a fictional price</span>
 					    <button class="addToCart">Add to cart</button>
                     </div>
 				</div>
